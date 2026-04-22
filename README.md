@@ -1,1 +1,16 @@
-Este projeto é uma aplicação web simples desenvolvida em React com Vite. Ela apresenta um cardápio digital para marmitas e empanadas, com preços fixos. Os usuários podem visualizar os itens disponíveis, alternar entre as categorias e fazer pedidos com envio diretamente via WhatsApp através de um formulário que coleta nome, quantidade, sabores desejados e endereço. O app inclui informações sobre prazos de entrega e é atualizado quinzenalmente. É ideal para um serviço de comida caseira ou delivery local.
+# React + Vite
+
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+
+Currently, two official plugins are available:
+
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+## React Compiler
+
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+
+## Expanding the ESLint configuration
+
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
